@@ -11,7 +11,7 @@ public class UnnecessaryParentheses
      * A comment for context
      */
 
-    if (((s == null) && (s.length() > 5))) {
+    if ((s.length()) > 5) {
       System.out.println("Length is greater than 5!");
     }
     /*
