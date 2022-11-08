@@ -11,7 +11,7 @@ public class UnnecessaryParentheses
      * A comment for context
      */
 
-    if((s == null
+    if(((s == null
     // intentionally blank lines
 
 
@@ -23,7 +23,7 @@ public class UnnecessaryParentheses
 
 
 
-        )) {
+        ))) {
       System.out.println("Length is greater than 5!");
     }
     /*
