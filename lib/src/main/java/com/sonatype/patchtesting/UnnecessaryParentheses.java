@@ -8,18 +8,18 @@ import java.util.Scanner;
 public class UnnecessaryParentheses
 {
   public boolean unnecessaryParentheses() {
-    String s = (new Scanner(System.in).nextLine());
+    String s =  new Scanner(System.in).nextLine();
     /*
      * A comment for context
      */
 
-    if ((s.length()) > 5) {
+    if ( s.length() > 5) {
       System.out.println("Length is greater than 5!");
     }
     /*
      * More comment context
      */
 
-    return (true);
+    return  true;
   }
 }
