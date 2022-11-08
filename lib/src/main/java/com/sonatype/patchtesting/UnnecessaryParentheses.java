@@ -3,10 +3,12 @@
  */
 package com.sonatype.patchtesting;
 
+import java.util.Scanner;
+
 public class UnnecessaryParentheses
 {
   public boolean unnecessaryParentheses() {
-    String s = ("This is a string with UnnecessaryParentheses");
+    String s = (new Scanner(System.in).nextLine());
     /*
      * A comment for context
      */
