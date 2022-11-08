@@ -11,19 +11,7 @@ public class UnnecessaryParentheses
      * A comment for context
      */
 
-    if(((s == null
-    // intentionally blank lines
-
-
-    ) &&
-    // intentionally blank lines 2
-
-
-        (s.length() > 5
-
-
-
-        ))) {
+    if (((s == null) && (s.length() > 5))) {
       System.out.println("Length is greater than 5!");
     }
     /*
