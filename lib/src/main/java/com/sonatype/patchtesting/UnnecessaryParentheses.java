@@ -13,6 +13,8 @@ public class UnnecessaryParentheses
      * A comment for context
      */
 
+    new RuntimeException("ah");
+
     if ( s.length() > 5) {
       System.out.println("Length is greater than 5!");
     }
